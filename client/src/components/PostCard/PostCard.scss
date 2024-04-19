@@ -1,0 +1,49 @@
+.card{
+  width: 50%;
+}
+.userBlock{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+  form{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    button{
+      width: 35%;
+      height: 45px;
+      font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color:#334155FF;
+    border: none;
+    border-radius: 25px;
+    color: white;
+  }
+  
+  input{
+    width: 60%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #DFE0E3FF;
+    background: none;
+  }
+}
+  img{
+    width: 8%;
+    border-radius: 50%;
+  }
+}
+.css-1npth7a-MuiListItemText-root{
+  display: flex;
+  align-items: center;
+}
+.css-1lbrbe2-MuiList-root{
+  height: 150px;
+  overflow: auto ;
+}

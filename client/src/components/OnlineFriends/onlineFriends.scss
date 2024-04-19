@@ -1,0 +1,31 @@
+.onlineFriends {
+  width: 75%;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  background-color: #1e293b;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    h3 {
+      color: white;
+      font-size: 18px;
+      font-family: sans-serif;
+    }
+  }
+  .userOnline{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    .userOnlineImg{
+      width: 13%;
+      height: 60px;
+      border-radius: 50%;
+    }
+  }
+}

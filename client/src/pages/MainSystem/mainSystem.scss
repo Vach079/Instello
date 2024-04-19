@@ -1,0 +1,22 @@
+.mainSite {
+  width: 82%;
+  background-color: #0f172a;
+  margin-left: 18%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 70px;
+}
+@media screen and (max-width: "1260px") {
+  .mainSite {
+    width: calc(100% - 85px);
+    margin-left: 85px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: "800px") {
+  .mainSite {
+    width: 100%;
+    margin: 0;
+    transition: 1s;
+  }
+}

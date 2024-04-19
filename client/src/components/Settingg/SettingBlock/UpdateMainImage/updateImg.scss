@@ -1,0 +1,32 @@
+.updateImg{
+  width: 55%;
+  height: 400px;
+  background-color: #1e293bff;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  .mainImage{
+    width: 30%;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width:"1260px") {
+  
+  .updateImg{
+    width: 80%;
+  }
+
+}
+@media screen and (max-width:"800px") {
+  
+  .updateImg{
+    width: 80%;
+  }
+
+}

@@ -1,0 +1,36 @@
+.leftSection{
+  grid-column: span 3;
+  padding-top: 50px;
+
+  .leftChildren{
+    width: 70%  ;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .dialogBlock{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    background-color: #1E293BFF;
+  }
+}
+@media screen and (max-width: "1060px") {
+  .leftSection{
+    grid-column: span 5;
+  }
+}
+@media screen and (max-width: "500px") {
+  .leftSection{
+      .dialogBlock{
+        flex-direction: column;
+        align-items: center;
+        button{
+          width: 90%;
+        }
+      }
+      .leftChildren{
+        width: 95%;
+      }
+  }
+}

@@ -1,0 +1,27 @@
+.chatMain {
+  width: 82%;
+  height: 100vh;
+  background-color: #0f172aff;
+  margin-left: 18%;
+  display: flex;
+  justify-content: center;
+  .chat {
+    width: 90%;
+    display: flex;
+    background-color: #1e293b;
+  }
+}
+@media screen and (max-width: "1260px") {
+  .chatMain {
+    width: calc(100% - 85px);
+    margin-left: 85px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: "800px") {
+  .chatMain {
+    width: 100%;
+    margin: 0;
+    transition: 1s;
+  }
+}
